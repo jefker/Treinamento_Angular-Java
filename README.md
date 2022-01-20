@@ -6,7 +6,6 @@
 
 
 <h2> Objetivo do projeto </h2>
-<hr>
 <ol>
     <li> Construir um Front em Angular para consumir uma API </li>
     <li>A aplicação recebe uma listagem de clientes e contas disponíveis </li>
@@ -18,9 +17,9 @@
     <li>O usuário pode realizar depósitos em contas existentes</li>
     <li>O usuário pode realizar saques em contas existentes</li>
 </ol>
+<br>
 
-<h1> Principais Funcionalidades do Front-end </h1>
-
+<h2> Principais Funcionalidades do Front-end </h2>
 [✔] Criar NavBar; <br>
 [✔] Criar SideBar;<br>
 [✔] Criar view de cadastro de um novo Cliente;<br>
