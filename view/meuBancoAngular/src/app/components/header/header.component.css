@@ -1,0 +1,42 @@
+.navbar {
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #212529fb;
+}
+
+.navbar-brand {
+  color: #2bd6e2;
+  font-weight: 600;
+}
+
+.navbar-brand:hover {
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.login a {
+  text-decoration: none;
+  justify-content: flex-end;
+  color: rgb(255, 255, 255);
+}
+
+.login a:hover {
+  color: rgb(43, 214, 226);
+  transition: 0.3s;
+}
+
+.login {
+  text-decoration: none;
+  justify-content: flex-end;
+  color: rgb(255, 255, 255);
+}
+
+.menu a:hover {
+  color: #2bd6e2;
+  transition: 0.3s;
+}
+
+.nav-item a:hover {
+  color: #2bd6e2;
+  transition: 0.3s;
+}

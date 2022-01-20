@@ -1,0 +1,25 @@
+.texto-principal{
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  padding: 0px 300px 90px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #212529;
+}
+
+.texto-principal h1{
+  font-size: 60px;
+  font-weight: 500;
+
+}
+
+p{
+  text-align: justify;
+}
+
+.banner-image1 {
+  background-image: url('img/smartphone.png');
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+} 

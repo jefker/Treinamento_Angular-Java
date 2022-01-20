@@ -1,0 +1,28 @@
+.login {
+    background-color: #212529;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 80px 60px 90px 60px;
+    align-items: center;
+}
+
+.login h5{
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 10px;
+}
+
+.btn:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+}

@@ -1,0 +1,36 @@
+<h1 class="mt-5 mb-4">Saque</h1>
+<form [formGroup]="formGroup" class="mb-3" (ngSubmit)="sacar()">
+  <div class="row">
+    <div class="col">
+      <label for="exampleFormControlInput1" class="form-label">Conta</label>
+      <input type="text" class="form-control" formControlName="numeroConta">
+      <small class="textobrigatorio mb-2" *ngIf="formGroup.get('numeroConta')?.errors &&
+      formGroup.get('numeroConta')?.hasError('required')">Obrigatório</small>
+    </div>
+    <div class="col">
+      <label for="exampleFormControlInput1" class="form-label">Agência</label>
+      <input type="text" class="form-control" formControlName="agencia">
+      <small class="textobrigatorio mb-2" *ngIf="formGroup.get('agencia')?.errors &&
+      formGroup.get('agencia')?.hasError('required')">Obrigatório</small>
+    </div>
+    <div class="col">
+      <label for="exampleFormControlInput1" class="form-label">Valor</label>
+      <input type="text" class="form-control" formControlName="valor">
+      <small class="textobrigatorio mb-2" *ngIf="formGroup.get('valor')?.errors &&
+      formGroup.get('valor')?.hasError('required')">Obrigatório</small>
+    </div>
+  </div>
+
+  <div class="form-check">
+    <p></p>
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+    <label class="form-check-label" for="flexCheckDefault">
+      Estou ciente dos termos de uso
+    </label>
+  </div>
+  
+  <button [disabled]="!formGroup.valid" type="submit" class=" mt-4 btn btn-dark d-flex justify-content-center"
+    titulo="Cadastrar"> Sacar
+  </button>
+
+</form>

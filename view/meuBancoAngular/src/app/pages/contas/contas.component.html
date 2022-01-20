@@ -1,0 +1,32 @@
+<div class="row" style="align-items: center">
+  <div class="col-10">
+    <h1 class="mt-5 mb-4">Contas</h1>
+  </div>
+</div>
+
+<div *ngIf="!contas.length">
+  <div class="d-flex justify-content-center">
+    <div class="spinner-border m-5" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+</div>
+
+<table *ngIf="contas.length" class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Nome do Cliente</th>
+      <th scope="col">Número da Conta</th>
+      <th scope="col">Agência</th>
+      <th scope="col">Saldo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let conta of contas;">
+      <td>{{ conta.cliente.nome }}</td>
+      <td>{{ conta.numero }}</td>
+      <td>{{ conta.agencia }}</td>
+      <td>{{ conta.saldo | currency: 'BRL'}},00</td>
+    </tr>
+  </tbody>
+</table>
