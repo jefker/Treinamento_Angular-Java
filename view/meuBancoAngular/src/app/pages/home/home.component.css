@@ -1,25 +1,65 @@
 .texto-principal{
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 5%;
   padding: 0px 300px 90px 0px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #212529;
+  color: #ffffff;
 }
 
 .texto-principal h1{
   font-size: 60px;
   font-weight: 500;
+}
 
+.texto-secundario{
+  position: absolute;
+  top: 105%;
+  left: 5%;
+  padding: 0px 200px 60px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #212529;
+  margin: 0px 200px 0px 0px;
+}
+
+.texto-secundario h2{
+  font-size: 45px;
+}
+
+.texto-secundario p{
+  font-size: 17px;
+  font-weight: bold;
+}
+
+
+.texto-secundario a{
+  text-decoration: none;
+  color: rgb(43, 214, 226);
+}
+
+.texto-secundario a:hover{
+  text-decoration: underline;
 }
 
 p{
+  font-size: 20px;
   text-align: justify;
 }
 
-.banner-image1 {
-  background-image: url('img/smartphone.png');
-  background-size: cover;
-  max-width: 100%;
-  height: auto;
-} 
+.background{
+  background-image: url("img/smartphone.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 890px;
+  background-position: center top;
+}
+
+.cartao-img{
+  background-image: url("img/cartao.png");
+}
+
+.cartao {
+  display: flex;
+}

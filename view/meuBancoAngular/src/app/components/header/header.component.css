@@ -4,13 +4,22 @@
   background-color: #212529fb;
 }
 
-.navbar-brand {
-  color: #2bd6e2;
-  font-weight: 600;
+.menu {
+  margin-left: 10px;
 }
 
-.navbar-brand:hover {
-  color: #ffffff;
+.nav-item {
+  margin-left: 10px;
+}
+
+.navbar-brand img{
+  padding: 2px 0px 3px 0px;
+  height: 30px;
+}
+
+.navbar-brand img:hover{
+  padding: 0px 3px 1px 0px;
+  height: 29px;
   transition: 0.3s;
 }
 
